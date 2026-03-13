@@ -1,0 +1,36 @@
+# dependencies
+node_modules/
+
+# environment variables
+.env
+.env.local
+.env.development
+.env.production
+#env example
+.env example
+PORT=5000
+MONGO_URI=your_mongodb_api_key
+JWT_SECRET=JWT SECRET KEY
+FIREBASE_PROJECT_ID="fIREBASE PROJECT ID"
+FIREBASE_CLIENT_EMAIL="FIREBASE CLIENT EMAIL"
+FIREBASE_PRIVATE_KEY="FIREBASE PRIVATE KEY"
+
+# logs
+logs
+*.log
+
+# build folders
+dist
+build
+.next
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# coverage
+coverage/
