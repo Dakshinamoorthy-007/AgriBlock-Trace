@@ -14,7 +14,11 @@ app.get("/", (req, res) => {
 // 🔥 GLOBAL MIDDLEWARE
 app.use(cors());
 app.use(express.json());
+const cors = require("cors");
 
+app.use(cors({
+  origin: "https://agri-block-trace.vercel.app/"
+}));
 
 // 🔥 ROUTES
 app.use("/api/admin", adminRoutes);
