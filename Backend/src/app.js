@@ -10,7 +10,7 @@ const app = express();
 
 // 🔥 GLOBAL MIDDLEWARE
 app.use(cors({
-  origin: "https://agri-block-trace-nd6r.vercel.app"
+  origin: "https://agri-block-trace.vercel.app"  // ← frontend URL
 }));
 app.use(express.json());
 
